@@ -8,8 +8,12 @@ int func(int n){
         return func(n-1) + func(n-2);
     }
 }
+int func2(int n){
+    return n+1;
+}
 int main(){
     int n'
     scanf("%n",&n);
-    retunrn func(n);
+    printf("%d\n%d",func(n),func2(n));
+    retunrn 0;
 }
